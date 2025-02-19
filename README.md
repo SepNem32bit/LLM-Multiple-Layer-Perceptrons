@@ -1,7 +1,7 @@
 # MLP From Scratch: Character Prediction Model
 This project implements a simple Multi-Layer Perceptron (MLP) from scratch using PyTorch. The model is designed to predict the next character in a sequence of characters, trained on a dataset of names. The training data is loaded from a file called names.txt, where each line represents a name.
 
-## Features
+## Features  
 **MLP Architecture**: The neural network model consists of:  
 
 - **An embedding layer** to represent each character in a fixed-dimensional space.  
@@ -11,7 +11,8 @@ This project implements a simple Multi-Layer Perceptron (MLP) from scratch using
 - **Cross-entropy loss** for training the model efficiently.  
 
 **Training**: The model uses mini-batch gradient descent and updates weights after each epoch.  
-**Validation**: The model evaluates its performance on a validation dataset after training.
+**Validation**: The model evaluates its performance on a validation dataset after training.  
+
 
 ## File Structure
 ```bash
