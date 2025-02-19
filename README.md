@@ -3,14 +3,14 @@ This project implements a simple Multi-Layer Perceptron (MLP) from scratch using
 
 ## Features  
 **MLP Architecture**: The neural network model consists of:  
-
 - **An embedding layer** to represent each character in a fixed-dimensional space.  
 - **Two fully connected layers** with activation functions:  
   - **Tanh** activation in the first layer to introduce non-linearity.  
   - **Softmax** activation in the output layer for probability distribution.  
 - **Cross-entropy loss** for training the model efficiently.  
 
-**Training**: The model uses mini-batch gradient descent and updates weights after each epoch.  
+**Training**: The model uses mini-batch gradient descent and updates weights after each epoch.   
+
 **Validation**: The model evaluates its performance on a validation dataset after training.  
 
 
